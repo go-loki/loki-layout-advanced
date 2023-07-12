@@ -1,17 +1,17 @@
-# nunu-layout-advanced — 高级布局
+# hasaki-layout-advanced — 高级布局
 
 
-Nunu是一个基于Golang的应用脚手架，它的名字来自于英雄联盟中的游戏角色，一个骑在雪怪肩膀上的小男孩。和努努一样，该项目也是站在巨人的肩膀上，它是由Golang生态中各种非常流行的库整合而成的，它们的组合可以帮助你快速构建一个高效、可靠的应用程序。
+Hasaki是一个基于Golang的应用脚手架，它的名字来自于英雄联盟中的游戏角色，一个骑在雪怪肩膀上的小男孩。和努努一样，该项目也是站在巨人的肩膀上，它是由Golang生态中各种非常流行的库整合而成的，它们的组合可以帮助你快速构建一个高效、可靠的应用程序。
 
 [英文介绍](https://github.com/go-hasaki/hasaki-layout-advanced/blob/main/README.md
 
-![Nunu](https://github.com/go-nunu/nunu/blob/main/.github/assets/banner.png)
+![Hasaki](https://github.com/go-hasaki/hasaki/blob/main/.github/assets/banner.png)
 
 
 ## 文档
-* [使用指南](https://github.com/go-nunu/nunu/blob/main/docs/zh/guide.md)
-* [分层架构](https://github.com/go-nunu/nunu/blob/main/docs/zh/architecture.md)
-* [上手教程](https://github.com/go-nunu/nunu/blob/main/docs/zh/tutorial.md)
+* [使用指南](https://github.com/go-hasaki/hasaki/blob/main/docs/zh/guide.md)
+* [分层架构](https://github.com/go-hasaki/hasaki/blob/main/docs/zh/architecture.md)
+* [上手教程](https://github.com/go-hasaki/hasaki/blob/main/docs/zh/tutorial.md)
 
 ## 功能
 - **Gin**: https://github.com/gin-gonic/gin
@@ -26,15 +26,15 @@ Nunu是一个基于Golang的应用脚手架，它的名字来自于英雄联盟�
 - **gocron**:  https://github.com/go-co-op/gocron
 - More...
 ## 特性
-* **超低学习成本和定制**：Nunu封装了Gopher最熟悉的一些流行库。您可以轻松定制应用程序以满足特定需求。
-* **高性能和可扩展性**：Nunu旨在具有高性能和可扩展性。它使用最新的技术和最佳实践，确保您的应用程序可以处理高流量和大量数据。
-* **安全可靠**：Nunu使用了稳定可靠的第三方库，确保您的应用程序安全可靠。
-* **模块化和可扩展**：Nunu旨在具有模块化和可扩展性。您可以通过使用第三方库或编写自己的模块轻松添加新功能和功能。
-* **文档完善和测试完备**：Nunu文档完善，测试完备。它提供了全面的文档和示例，帮助您快速入门。它还包括一套测试套件，确保您的应用程序按预期工作。
+* **超低学习成本和定制**：Hasaki封装了Gopher最熟悉的一些流行库。您可以轻松定制应用程序以满足特定需求。
+* **高性能和可扩展性**：Hasaki旨在具有高性能和可扩展性。它使用最新的技术和最佳实践，确保您的应用程序可以处理高流量和大量数据。
+* **安全可靠**：Hasaki使用了稳定可靠的第三方库，确保您的应用程序安全可靠。
+* **模块化和可扩展**：Hasaki旨在具有模块化和可扩展性。您可以通过使用第三方库或编写自己的模块轻松添加新功能和功能。
+* **文档完善和测试完备**：Hasaki文档完善，测试完备。它提供了全面的文档和示例，帮助您快速入门。它还包括一套测试套件，确保您的应用程序按预期工作。
 
-## Nunu CLI
+## Hasaki CLI
 
-![Nunu](https://github.com/go-nunu/nunu/blob/main/.github/assets/screenshot.jpg)
+![Hasaki](https://github.com/go-hasaki/hasaki/blob/main/.github/assets/screenshot.jpg)
 
 
 ## 目录结构
@@ -108,7 +108,7 @@ Nunu是一个基于Golang的应用脚手架，它的名字来自于英雄联盟�
 - go.sum: Go模块的依赖版本文件。
 
 ## 要求
-要使用Nunu，您需要在系统上安装以下软件：
+要使用Hasaki，您需要在系统上安装以下软件：
 
 * Golang 1.16或更高版本
 * Git
@@ -117,10 +117,10 @@ Nunu是一个基于Golang的应用脚手架，它的名字来自于英雄联盟�
 
 ### 安装
 
-您可以通过以下命令安装Nunu：
+您可以通过以下命令安装Hasaki：
 
 ```bash
-go install github.com/go-nunu/nunu@latest
+go install github.com/go-hasaki/hasaki@latest
 ```
 
 
@@ -129,14 +129,14 @@ go install github.com/go-nunu/nunu@latest
 您可以使用以下命令创建一个新的Golang项目：
 
 ```bash
-nunu new projectName
+hasaki new projectName
 ```
 默认拉取github源，你也可以使用国内加速仓库
 ```
 // 使用基础模板
-nunu new projectName -r https://gitee.com/go-nunu/nunu-layout-basic.git
+hasaki new projectName -r https://gitee.com/go-hasaki/hasaki-layout-basic.git
 // 使用高级模板
-nunu new projectName -r https://gitee.com/go-nunu/nunu-layout-advanced.git
+hasaki new projectName -r https://gitee.com/go-hasaki/hasaki-layout-advanced.git
 ```
 
 此命令将创建一个名为`projectName`的目录，并在其中生成一个优雅的Golang项目结构。
@@ -146,14 +146,14 @@ nunu new projectName -r https://gitee.com/go-nunu/nunu-layout-advanced.git
 您可以使用以下命令为项目创建handler、service和dao等组件：
 
 ```bash
-nunu create handler user
-nunu create service user
-nunu create repository user
-nunu create model user
+hasaki create handler user
+hasaki create service user
+hasaki create repository user
+hasaki create model user
 ```
 或
 ```
-nunu create all user
+hasaki create all user
 ```
 这些命令将分别创建一个名为`UserHandler`、`UserService`、`UserDao`和`UserModel`的组件，并将它们放置在正确的目录中。
 
@@ -162,7 +162,7 @@ nunu create all user
 您可以使用以下命令快速启动项目：
 
 ```bash
-nunu run
+hasaki run
 ```
 
 此命令将启动您的Golang项目，并支持文件更新热重启。
@@ -172,7 +172,7 @@ nunu run
 您可以使用以下命令快速编译`wire.go`：
 
 ```bash
-nunu wire
+hasaki wire
 ```
 
 此命令将编译您的`wire.go`文件，并生成所需的依赖项。
@@ -183,4 +183,4 @@ nunu wire
 
 ## 许可证
 
-Nunu是根据MIT许可证发布的。有关更多信息，请参见[LICENSE](LICENSE)文件。
+Hasaki是根据MIT许可证发布的。有关更多信息，请参见[LICENSE](LICENSE)文件。

@@ -1,15 +1,15 @@
-# nunu-layout-advanced - Advanced Layout
+# hasaki-layout-advanced - Advanced Layout
 
-Nunu is an application scaffold based on Golang. Its name comes from a game character in League of Legends, a little boy riding on the shoulder of a yeti. Like Nunu, this project also stands on the shoulders of giants. It is a composition of various popular libraries from the Golang ecosystem, which can help you quickly build efficient and reliable applications.
+Hasaki is an application scaffold based on Golang. Its name comes from a game character in League of Legends, a little boy riding on the shoulder of a yeti. Like Hasaki, this project also stands on the shoulders of giants. It is a composition of various popular libraries from the Golang ecosystem, which can help you quickly build efficient and reliable applications.
 
 [简体中文介绍](https://github.com/go-hasaki/hasaki-layout-advanced/blob/main/README_zh.md)
 
-![Nunu](https://github.com/go-nunu/nunu/blob/main/.github/assets/banner.png)
+![Hasaki](https://github.com/go-hasaki/hasaki/blob/main/.github/assets/banner.png)
 
 ## Documentation
-* [User Guide](https://github.com/go-nunu/nunu/blob/main/docs/en/guide.md)
-* [Architecture](https://github.com/go-nunu/nunu/blob/main/docs/en/architecture.md)
-* [Getting Started Tutorial](https://github.com/go-nunu/nunu/blob/main/docs/en/tutorial.md)
+* [User Guide](https://github.com/go-hasaki/hasaki/blob/main/docs/en/guide.md)
+* [Architecture](https://github.com/go-hasaki/hasaki/blob/main/docs/en/architecture.md)
+* [Getting Started Tutorial](https://github.com/go-hasaki/hasaki/blob/main/docs/en/tutorial.md)
 
 ## Features
 - **Gin**: https://github.com/gin-gonic/gin
@@ -25,15 +25,15 @@ Nunu is an application scaffold based on Golang. Its name comes from a game char
 - More...
 
 ## Highlights
-* **Low Learning Curve and Customization**: Nunu encapsulates popular libraries that Gophers are familiar with. You can easily customize the application to meet specific requirements.
-* **High Performance and Scalability**: Nunu aims to be high-performance and scalable. It utilizes the latest technologies and best practices to ensure your application can handle high traffic and large data volumes.
-* **Security and Reliability**: Nunu uses stable and reliable third-party libraries to ensure the security and reliability of your application.
-* **Modularity and Extensibility**: Nunu is designed to be modular and extensible. You can easily add new features and functionalities by using third-party libraries or writing your own modules.
-* **Comprehensive Documentation and Test Coverage**: Nunu has comprehensive documentation and test coverage. It provides detailed documentation and examples to help you get started quickly. It also includes a test suite to ensure your application works as expected.
+* **Low Learning Curve and Customization**: Hasaki encapsulates popular libraries that Gophers are familiar with. You can easily customize the application to meet specific requirements.
+* **High Performance and Scalability**: Hasaki aims to be high-performance and scalable. It utilizes the latest technologies and best practices to ensure your application can handle high traffic and large data volumes.
+* **Security and Reliability**: Hasaki uses stable and reliable third-party libraries to ensure the security and reliability of your application.
+* **Modularity and Extensibility**: Hasaki is designed to be modular and extensible. You can easily add new features and functionalities by using third-party libraries or writing your own modules.
+* **Comprehensive Documentation and Test Coverage**: Hasaki has comprehensive documentation and test coverage. It provides detailed documentation and examples to help you get started quickly. It also includes a test suite to ensure your application works as expected.
 
-## Nunu CLI
+## Hasaki CLI
 
-![Nunu](https://github.com/go-nunu/nunu/blob/main/.github/assets/screenshot.jpg)
+![Hasaki](https://github.com/go-hasaki/hasaki/blob/main/.github/assets/screenshot.jpg)
 
 ## Directory Structure
 ```
@@ -106,17 +106,17 @@ This is a classic directory structure for a Golang project, which includes the f
 - go.sum: The dependency versions file for the Go module.
 
 ## Requirements
-To use Nunu, you need to have the following software installed on your system:
+To use Hasaki, you need to have the following software installed on your system:
 
 * Golang 1.16 or higher
 * Git
 
 ### Installation
 
-You can install Nunu using the following command:
+You can install Hasaki using the following command:
 
 ```bash
-go install github.com/go-nunu/nunu@latest
+go install github.com/go-hasaki/hasaki@latest
 ```
 
 ### Creating a New Project
@@ -124,16 +124,16 @@ go install github.com/go-nunu/nunu@latest
 You can create a new Golang project using the following command:
 
 ```bash
-nunu new projectName
+hasaki new projectName
 ```
 
 By default, it will pull from the GitHub repository, but you can also use a mirror repository for faster access:
 
 ```
 // Use the basic template
-nunu new projectName -r https://gitee.com/go-nunu/nunu-layout-basic.git
+hasaki new projectName -r https://gitee.com/go-hasaki/hasaki-layout-basic.git
 // Use the advanced template
-nunu new projectName -r https://gitee.com/go-nunu/nunu-layout-advanced.git
+hasaki new projectName -r https://gitee.com/go-hasaki/hasaki-layout-advanced.git
 ```
 
 This command will create a directory named `projectName` and generate an elegant Golang project structure within it.
@@ -143,14 +143,14 @@ This command will create a directory named `projectName` and generate an elegant
 You can create handlers, services, repositories, and models for your project using the following commands:
 
 ```bash
-nunu create handler user
-nunu create service user
-nunu create repository user
-nunu create model user
+hasaki create handler user
+hasaki create service user
+hasaki create repository user
+hasaki create model user
 ```
 or
 ```
-nunu create all user
+hasaki create all user
 ```
 
 These commands will create components named `UserHandler`, `UserService`, `UserDao`, and `UserModel` respectively and place them in the correct directories.
@@ -160,7 +160,7 @@ These commands will create components named `UserHandler`, `UserService`, `UserD
 You can quickly start your project using the following command:
 
 ```bash
-nunu run
+hasaki run
 ```
 
 This command will start your Golang project and support hot-reloading of files.
@@ -170,7 +170,7 @@ This command will start your Golang project and support hot-reloading of files.
 You can quickly compile `wire.go` using the following command:
 
 ```bash
-nunu wire
+hasaki wire
 ```
 
 This command will compile your `wire.go` file and generate the required dependencies.
@@ -181,4 +181,4 @@ If you find any issues or have any improvement suggestions, please feel free to 
 
 ## License
 
-Nunu is released under the MIT License. See the [LICENSE](LICENSE) file for more information.
+Hasaki is released under the MIT License. See the [LICENSE](LICENSE) file for more information.

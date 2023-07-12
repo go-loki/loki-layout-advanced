@@ -33,7 +33,7 @@ func NewServer(
 		noAuthRouter.GET("/", func(c context.Context, ctx *app.RequestContext) {
 			logger.WithContext(ctx).Info("hello")
 			resp.HandleSuccess(ctx, map[string]interface{}{
-				"say": "Hi Nunu!",
+				"say": "Hi Hasaki!",
 			})
 		})
 
