@@ -14,7 +14,7 @@ Hasaki是一个基于Golang的应用脚手架，它的名字来自于英雄联�
 * [上手教程](https://github.com/go-hasaki/hasaki/blob/main/docs/zh/tutorial.md)
 
 ## 功能
-- **Gin**: https://github.com/gin-gonic/gin
+- **Hertz**: https://github.com/cloudwego/hertz
 - **Gorm**: https://github.com/go-gorm/gorm
 - **Wire**: https://github.com/google/wire
 - **Viper**: https://github.com/spf13/viper

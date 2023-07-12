@@ -12,7 +12,7 @@ Hasaki is an application scaffold based on Golang. Its name comes from a game ch
 * [Getting Started Tutorial](https://github.com/go-hasaki/hasaki/blob/main/docs/en/tutorial.md)
 
 ## Features
-- **Gin**: https://github.com/gin-gonic/gin
+- **Gin**: https://github.com/cloudwego/hertz
 - **Gorm**: https://github.com/go-gorm/gorm
 - **Wire**: https://github.com/google/wire
 - **Viper**: https://github.com/spf13/viper
