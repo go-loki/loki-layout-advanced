@@ -1,4 +1,4 @@
-package pkafka
+package producer
 
 type Options struct {
 	Topic        string

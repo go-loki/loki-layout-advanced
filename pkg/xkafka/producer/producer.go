@@ -1,4 +1,4 @@
-package pkafka
+package producer
 
 import (
 	"context"
@@ -31,7 +31,7 @@ type Config struct {
 	ConfigMap        map[string]kafka.ConfigValue `json:"config.map"`
 }
 
-func NewClient(cfg Config, opts ...Option) (Client, error) {
+func NewProducer(cfg Config, opts ...Option) (Client, error) {
 	fmt.Print("init kafka producer, it may take a few seconds to init the connection\n")
 	// common arguments
 	kafkaConf := &kafka.ConfigMap{
@@ -134,7 +134,6 @@ func (cli *client) PublishWithEvent(ctx context.Context, value []byte, key []byt
 		Key:            key,
 	}, event)
 }
-
 func (cli *client) PublishRaw(ctx context.Context, msg *kafka.Message, event chan kafka.Event) error {
 	return cli.producer.Produce(msg, event)
 }
