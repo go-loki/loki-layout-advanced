@@ -2,8 +2,9 @@ package middleware
 
 import (
 	"context"
-	"github.com/cloudwego/hertz/pkg/app"
 	"net/http"
+
+	"github.com/cloudwego/hertz/pkg/app"
 )
 
 func CORSMiddleware() app.HandlerFunc {
