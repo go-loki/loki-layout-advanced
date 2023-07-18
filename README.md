@@ -1,17 +1,11 @@
 # hasaki-layout-advanced — 高级布局
 
-
 Hasaki是一个基于Golang的应用脚手架，它的名字来自于英雄联盟中的亚索英雄的口头语。Hasaki是由Golang生态中各种非常流行的库整合而成的，它们的组合可以帮助你快速构建一个高效、可靠的应用程序。
 
-[英文介绍](https://github.com/go-hasaki/hasaki-layout-advanced/blob/main/README.md
-
-![Hasaki](https://github.com/go-hasaki/hasaki/blob/main/.github/assets/banner.png)
-
-
 ## 文档
-* [使用指南](https://github.com/go-hasaki/hasaki/blob/main/docs/zh/guide.md)
-* [分层架构](https://github.com/go-hasaki/hasaki/blob/main/docs/zh/architecture.md)
-* [上手教程](https://github.com/go-hasaki/hasaki/blob/main/docs/zh/tutorial.md)
+* [使用指南](https://github.com/go-hasaki/hasaki/blob/main/docs/guide.md)
+* [分层架构](https://github.com/go-hasaki/hasaki/blob/main/docs/architecture.md)
+* [上手教程](https://github.com/go-hasaki/hasaki/blob/main/docs/tutorial.md)
 
 ## 功能
 - **Hertz**: https://github.com/cloudwego/hertz
